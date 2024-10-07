@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start-button-container {
+    display: flex;
+    justify-content: center; /* center button horizontally */
+    margin-bottom: 20px; /* space below start button */
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#help-button {
+    display: none;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#color-display {
+    margin: 10px;
+    font-size: 24px;
+    display: none; /* Hide color display initially */
+}
+
+#timer {
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+}
