@@ -6,7 +6,7 @@ Very simple interactive webpage for a colour learning game.
 ## About the Game
 The game consists in having a grid with multiple colours and a panel where a colour name will be presented; the user will click a cell in the grid and that cell's colour name will be presented in a panel above. Once a cell has been clicked, it will become black. The game is over when all the cells are black. The goal is to click all the cells in the shortest amount of time.
 
-## Simple Game Requirements
+## Requirements
 
 - When the user enters the page, it will present a "Start" button.
 
@@ -21,14 +21,8 @@ The game consists in having a grid with multiple colours and a panel where a col
 
 	- Each time the user clicks a cell, the colour's name will be displayed in a panel above the grid, using the same colour in the text's style.
 
-	- Then, that cell will become black.
+	- The cells will become black only when the user clicks two different cells with the same colour in sequence. Ensure that each colour appears exactly 6 times (3 pairs).
 
 	- When the game is over (all cells are black), the colour name panel will display "Game Over", written in black.
 
 	- The total time taken to complete the game is shown to the user with an alert.
-
-## Complex Game Requirement
-
-- The cells will become black only when the user clicks two different cells with the same colour in sequence.
-
-- The game is still over when all cells are black. Ensure that each colour appears exactly 6 times (3 pairs).
